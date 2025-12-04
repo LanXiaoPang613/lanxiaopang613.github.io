@@ -23,20 +23,20 @@
     .nav-links a{padding:6px 10px;border-radius:999px;}
     .nav-links a:hover{background:color-mix(in oklab,var(--card) 85%,transparent);text-decoration:none;}
     /* 当前页面高亮 */
-.nav-links a.active{
-  background: color-mix(in oklab, var(--accent) 22%, transparent);
-  border: 1px solid color-mix(in oklab, var(--accent) 55%, transparent);
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 700;
-}
+    .nav-links a.active{
+      background: color-mix(in oklab, var(--accent) 22%, transparent);
+      border: 1px solid color-mix(in oklab, var(--accent) 55%, transparent);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+    }
 
-/* sticky 后的背景/阴影更明显 */
-nav.nav-scrolled{
-  background: color-mix(in oklab, var(--bg) 92%, transparent);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-  border-bottom-color: color-mix(in oklab, var(--border) 85%, transparent);
-}
+    /* sticky 后的背景/阴影更明显 */
+    nav.nav-scrolled{
+      background: color-mix(in oklab, var(--bg) 92%, transparent);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      border-bottom-color: color-mix(in oklab, var(--border) 85%, transparent);
+    }
 
     .container{max-width:var(--maxw);margin:0 auto;padding:28px 18px 70px;}
     .card{background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow);border-radius:var(--radius);padding:18px;margin-top:18px;}
@@ -66,7 +66,6 @@ nav.nav-scrolled{
       <div style="font-weight:700;">Qian Zhang(张迁)</div>
       <div class="nav-links">
         <a href="index.html">Profile(简介)</a>
-
         <a href="publications.html">Publications(论文)</a>
         <a href="grants.html">Grants(项目)</a>
         <a href="teaching.html">Courses Taught(教学)</a>
@@ -92,7 +91,31 @@ nav.nav-scrolled{
   <script>
     function esc(s){
       return String(s ?? "")
-        .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;");
+    }
+
+    // ====== 加粗指定作者名：在这里填你要加粗的名字 ======
+    const highlightNames = ["Qian Zhang"];
+
+    function normName(s){
+      // 去掉作者名里可能出现的 * # † 等标记并统一小写
+      return String(s)
+        .replace(/g, "")
+        .trim()
+        .toLowerCase();
+    }
+    const highlightSet = new Set(highlightNames.map(normName));
+
+    function authorsHtml(authors){
+      if(!authors) return "";
+      const arr = String(authors).split(/\s*,\s*/); // 按逗号切作者
+      return arr.map(a=>{
+        const safe = esc(a);  // 安全转义
+        const n = normName(a);
+        return highlightSet.has(n) ? `<strong>${safe}</strong>` : safe;
+      }).join(", ");
     }
 
     (async function loadAndRenderPublications() {
@@ -212,7 +235,7 @@ nav.nav-scrolled{
             div.innerHTML = `
               <div class="item-title">${esc(p.title)}</div>
               <div class="item-meta">
-                ${esc(p.authors)}<br/>
+                ${authorsHtml(p.authors)}<br/>
                 <i>${esc(p.venue||"")}</i>
                 ${linkHtml ? " · "+linkHtml : ""}
               </div>
@@ -299,26 +322,25 @@ nav.nav-scrolled{
       }
     })();
   </script>
-<script>
-(function setActiveNav(){
-  // 取最后一段路径，并去掉空/斜杠
-  let path = location.pathname.split("/").filter(Boolean).pop() || "index.html";
 
-  // 允许没有 .html 的形式
-  const pathNoExt = path.replace(/\.html$/i, "");
+  <script>
+  (function setActiveNav(){
+    // 取最后一段路径，并去掉空/斜杠
+    let path = location.pathname.split("/").filter(Boolean).pop() || "index.html";
 
-  document.querySelectorAll(".nav-links a").forEach(a=>{
-    let href = a.getAttribute("href") || "";
-    href = href.split("?")[0].split("#")[0];  // 去 query/hash
-    const hrefNoExt = href.replace(/\.html$/i, "");
+    // 允许没有 .html 的形式
+    const pathNoExt = path.replace(/\.html$/i, "");
 
-    if (href === path || hrefNoExt === pathNoExt) {
-      a.classList.add("active");
-    }
-  });
-})();
-</script>
+    document.querySelectorAll(".nav-links a").forEach(a=>{
+      let href = a.getAttribute("href") || "";
+      href = href.split("?")[0].split("#")[0];  // 去 query/hash
+      const hrefNoExt = href.replace(/\.html$/i, "");
 
-
+      if (href === path || hrefNoExt === pathNoExt) {
+        a.classList.add("active");
+      }
+    });
+  })();
+  </script>
 </body>
 </html>
