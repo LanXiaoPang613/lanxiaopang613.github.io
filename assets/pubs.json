@@ -109,11 +109,11 @@
   },
   {
     "year": 2025,
-    "title": "A Two-Stage Noisy Label Learning Framework with Uniform Consistency Selection and Robust Training",
+    "title": "UCRT: a two-stage noisy label learning framework with uniform consistency selection and robust training",
     "authors": "Qian Zhang, Qiu Chen",
     "venue": "Applied Intelligence",
     "links": {
-      "pdf": "http://dx.doi.org/10.2139/ssrn.4835466"
+      "pdf": "https://doi.org/10.1007/s10489-025-07051-7"
     },
     "tags": [
       "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
