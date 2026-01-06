@@ -229,7 +229,7 @@
   },
   {
     "year": 2025,
-    "title": "Beyond Transformers: A New Time-Frequency Collaborative Paradigm for PV Forecasting based on State Space Models",
+    "title": "Bidirectional Time-Frequency Gated Mamba with Cross-Attention for PV Power Forecasting",
     "authors": "Zhenkai Qin, Baozhong Wei, Ziqian Lin, Qian Zhang, Hongjian Wei*",
     "venue": "Submission",
     "links": {
@@ -318,6 +318,18 @@
     "venue": "Journal of Electronics & Information Technology (电子与信息学报)",
     "links": {
       "pdf": "https://doi.org/10.11999/JEIT240866"
+    },
+    "tags": [
+      "AI4S(人工智能驱动的科学)"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Toward Reliable Photovoltaic Cell Inspection: A Robust Dual-Network Learning Framework for Electroluminescence Image Defect Classification",
+    "authors": "Hongjian Wei, Ge Jin, Qian Zhang, et al.",
+    "venue": "Submitted to Energy",
+    "links": {
+      "pdf": ""
     },
     "tags": [
       "AI4S(人工智能驱动的科学)"
