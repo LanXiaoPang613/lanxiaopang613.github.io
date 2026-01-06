@@ -326,7 +326,7 @@
   {
     "year": 2026,
     "title": "Toward Reliable Photovoltaic Cell Inspection: A Robust Dual-Network Learning Framework for Electroluminescence Image Defect Classification",
-    "authors": "Hongjian Wei, Ge Jin, Qian Zhang, et al.",
+    "authors": "Hongjian Wei#, Ge Jin#, Qian Zhang#*, et al.",
     "venue": "Submitted to Energy",
     "links": {
       "pdf": ""
