@@ -241,11 +241,11 @@
   },
   {
     "year": 2025,
-    "title": "Decoding Depression: A Hybrid GRU-Mamba Architecture with Multi-dimensional Interpretability Framework for Facial Dynamics Analysis",
+    "title": "Decoding Depression: A Hybrid GRU–Mamba Architecture with Multi-dimensional Interpretability Framework for Facial Dynamics Analysis",
     "authors": "Ge Jin, Xinyi Li, Qian Zhang, et al.",
-    "venue": "Submission",
+    "venue": "Information Fusion",
     "links": {
-      "pdf": ""
+      "pdf": "https://doi.org/10.1016/j.inffus.2026.104374"
     },
     "tags": [
       "Multimodal Learning(多模态学习)"
