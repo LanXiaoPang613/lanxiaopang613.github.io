@@ -334,5 +334,17 @@
     "tags": [
       "AI4S(人工智能驱动的科学)"
     ]
+  },
+  {
+    "year": 2026,
+    "title": "Spherical Modulated Convolution with Cosine Supervision for Airway Segmentation",
+    "authors": "Qibiao Wu, Wei Zhang, Shurui Zhang, Xinyan Zhao, XiaXin Chen, Xudong Wang, Yagang Wang*, Qian Zhang*",
+    "venue": "Submitted to IEEE Transactions on Medical Imaging",
+    "links": {
+      "pdf": ""
+    },
+    "tags": [
+      "AI4S(人工智能驱动的科学)"
+    ]
   }
 ]
