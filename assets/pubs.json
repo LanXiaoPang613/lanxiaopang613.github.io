@@ -346,5 +346,17 @@
     "tags": [
       "AI4S(人工智能驱动的科学)"
     ]
+  },
+  {
+    "year": 2026,
+    "title": "基于结构化概念与时序学习模式的学生知识演变追踪",
+    "authors": "秦振凯, 覃玮琪, 韦堡钟, 马艳逢, 潘卫华, 张迁*",
+    "venue": "计算机应用研究(Application Research of Computers )",
+    "links": {
+      "pdf": ""
+    },
+    "tags": [
+      "Multimodal Learning(多模态学习)"
+    ]
   }
 ]
