@@ -109,6 +109,18 @@
   },
   {
     "year": 2026,
+    "title": "MDSC: Unsupervised Multipath Decomposition and Synergistic Correction for Efficient Low-Light Image Enhancement with Detail-Aware Smoothing",
+    "authors": "Yong CHeng, De Yu, Yongqi Yuan, Mengjie Ye, Huang Wang, Qian Zhang, Ge Jin",
+    "venue": "Asvanced Intelligent Systems",
+    "links": {
+      "pdf": "https://doi.org/10.1002/aisy.70430"
+    },
+    "tags": [
+      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
+    ]
+  },
+  {
+    "year": 2026,
     "title": "UCRT: a two-stage noisy label learning framework with uniform consistency selection and robust training",
     "authors": "Qian Zhang, Qiu Chen",
     "venue": "Applied Intelligence",
