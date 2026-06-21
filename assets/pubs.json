@@ -370,5 +370,17 @@
     "tags": [
       "AI4S(人工智能驱动的科学)"
     ]
+  },
+   {
+    "year": 2024,
+    "title": "CATS-Mamba: A Context-Aware Transaction State-Space Framework for Class-Imbalanced Anti-Money Laundering Detection",
+    "authors": "Zhenkai Qin, Yuxin Lin, Weiqi Qin, Qining Luo, Qian Zhang*",
+    "venue": "Submitted to Knowledge and Information Systems",
+    "links": {
+      "pdf": ""
+    },
+    "tags": [
+      "AI4S(人工智能驱动的科学)"
+    ]
   }
 ]
