@@ -135,7 +135,7 @@
     "year": 2025,
     "title": "Fine-grained and Cyclical Noisy Label Cleaning Method with Visual-Language Model",
     "authors": "Qian Zhang, Ge Jin, Filipe R. Cordeiro, Zihan Wei, Yingwen Zhu, Qiu Chen",
-    "venue": "Preprint",
+    "venue": "Under Review at Knowledge-Based Systems",
     "links": {
       "pdf": ""
     },
@@ -229,21 +229,9 @@
   },
   {
     "year": 2025,
-    "title": "DynSpecNet: A Knowledge-Adaptive Spectral Graph Neural Framework for Anomaly Detection in Open-Source Intelligence Systems",
-    "authors": "Zhenkai Qin, Dongze Wu, Jie Shen, Ziqian Lin, Weiqi Qin, Qian Zhang*",
-    "venue": "Submission",
-    "links": {
-      "pdf": ""
-    },
-    "tags": [
-      "AI4S(人工智能驱动的科学)"
-    ]
-  },
-  {
-    "year": 2025,
     "title": "Bidirectional Time-Frequency Gated Mamba with Cross-Attention for PV Power Forecasting",
     "authors": "Zhenkai Qin, Baozhong Wei, Ziqian Lin, Qian Zhang, Hongjian Wei*",
-    "venue": "Submission",
+    "venue": "Under Review at Engineering Applications of Artificial Intelligence",
     "links": {
       "pdf": ""
     },
@@ -339,7 +327,7 @@
     "year": 2026,
     "title": "Toward Reliable Photovoltaic Cell Inspection: A Robust Dual-Network Learning Framework for Electroluminescence Image Defect Classification",
     "authors": "Hongjian Wei#, Ge Jin#, Qian Zhang#*, et al.",
-    "venue": "Submitted to Energy",
+    "venue": "Under Review at International Journal of Electrical Power and Energy Systems",
     "links": {
       "pdf": ""
     },
@@ -351,7 +339,7 @@
     "year": 2026,
     "title": "Spherical Modulated Convolution with Cosine Supervision for Airway Segmentation",
     "authors": "Qibiao Wu, Wei Zhang, Shurui Zhang, Xinyan Zhao, XiaXin Chen, Xudong Wang, Yagang Wang*, Qian Zhang*",
-    "venue": "Submitted to IEEE Transactions on Medical Imaging",
+    "venue": "Under Review at Pattern Recognition",
     "links": {
       "pdf": ""
     },
