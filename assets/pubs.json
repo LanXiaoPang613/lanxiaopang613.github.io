@@ -1,5 +1,17 @@
 [
   {
+    "year": 2026,
+    "title": "Ultrasound Domain Adaptation for Robust Kidney Segmentation via Spectral-Similarity-Guided Translation",
+    "authors": "De Yu, Jinyan Cai, Menglin Wu, Yong Cheng, Ge Jin, Yongqi Yuan, Mengjie Ye, Qian Zhang, Shi Yin",
+    "venue": " Journal of Imaging Informatics in Medicine",
+    "links": {
+      "pdf": "https://link.springer.com/article/10.1007/s10278-026-02061-4"
+    },
+    "tags": [
+      ""AI4S(人工智能驱动的科学)"
+    ]
+  },
+  {
     "year": 2020,
     "title": "An Improved Noise Loss Correction Algorithm for Learning from Noisy Labels",
     "authors": "Qian Zhang, Feifei Lee, Yagang Wang, Ran Miao, Lei Chen, Qiu Chen",
@@ -110,7 +122,7 @@
   {
     "year": 2026,
     "title": "MDSC: Unsupervised Multipath Decomposition and Synergistic Correction for Efficient Low-Light Image Enhancement with Detail-Aware Smoothing",
-    "authors": "Yong CHeng, De Yu, Yongqi Yuan, Mengjie Ye, Huang Wang, Qian Zhang, Ge Jin",
+    "authors": "Yong Cheng, De Yu, Yongqi Yuan, Mengjie Ye, Huang Wang, Qian Zhang, Ge Jin",
     "venue": "Asvanced Intelligent Systems",
     "links": {
       "pdf": "https://doi.org/10.1002/aisy.70430"
