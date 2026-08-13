@@ -1,6 +1,18 @@
 [
   {
     "year": 2026,
+    "title": "CANNE: CLIP-Based ANNE Selection for Noisy-Label Learning",
+    "authors": "Ge Jin#,Qian Zhang#,Li Huang,Yongqi Yuan,Yulong Qiao,De Yu,Mengjie Ye,Yingwen Zhu",
+    "venue": "Entropy",
+    "links": {
+      "pdf": "https://doi.org/10.3390/e28080849"
+    },
+    "tags": [
+      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
+    ]
+  },
+  {
+    "year": 2026,
     "title": "Ultrasound Domain Adaptation for Robust Kidney Segmentation via Spectral-Similarity-Guided Translation",
     "authors": "De Yu, Jinyan Cai, Menglin Wu, Yong Cheng, Ge Jin, Yongqi Yuan, Mengjie Ye, Qian Zhang, Shi Yin",
     "venue": " Journal of Imaging Informatics in Medicine",
