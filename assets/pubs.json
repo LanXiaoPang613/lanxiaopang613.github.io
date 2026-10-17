@@ -1,4 +1,17 @@
 [
+  
+  {
+    "year": 2026,
+    "title": "CLIP-Guided Adaptive Sample Selection with Machine Unlearning and Negative Learning Strategies for Noisy Labels Learning",
+    "authors": "Qian Zhang#,Yanzhan Chen#,Yongqi Yuan,Ge Jin*, Yong Cheng*",
+    "venue": "Symmetry",
+    "links": {
+      "pdf": "https://doi.org/10.3390/sym18101691"
+    },
+    "tags": [
+      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
+    ]
+  },
   {
     "year": 2026,
     "title": "CANNE: CLIP-Based ANNE Selection for Noisy-Label Learning",
