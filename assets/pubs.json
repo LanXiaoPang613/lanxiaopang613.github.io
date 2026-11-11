@@ -1,5 +1,18 @@
 [
+
   
+  {
+    "year": 2026,
+    "title": "Structure-Preserving Smoothing and Self-Supervised Decomposition for Robust Unsupervised Low-Light Image Enhancement With Adaptive Re-Lighting",
+    "authors": "Yong Cheng, De Yu, Yongqi Yuan, Mengjie Ye, Ge Jin*, Qian Zhang*, Guangtao Zhai",
+    "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "links": {
+      "pdf": "https://doi.org/10.1109/TETCI.2026.3745538"
+    },
+    "tags": [
+      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
+    ]
+  },
   {
     "year": 2026,
     "title": "CLIP-Guided Adaptive Sample Selection with Machine Unlearning and Negative Learning Strategies for Noisy Labels Learning",
