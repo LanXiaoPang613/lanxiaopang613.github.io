@@ -15,30 +15,6 @@
   },
   {
     "year": 2026,
-    "title": "CLIP-Guided Adaptive Sample Selection with Machine Unlearning and Negative Learning Strategies for Noisy Labels Learning",
-    "authors": "Qian Zhang#,Yanzhan Chen#,Yongqi Yuan,Ge Jin*, Yong Cheng*",
-    "venue": "Symmetry",
-    "links": {
-      "pdf": "https://doi.org/10.3390/sym18101691"
-    },
-    "tags": [
-      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
-    ]
-  },
-  {
-    "year": 2026,
-    "title": "CANNE: CLIP-Based ANNE Selection for Noisy-Label Learning",
-    "authors": "Ge Jin#,Qian Zhang#,Li Huang,Yongqi Yuan,Yulong Qiao,De Yu,Mengjie Ye,Yingwen Zhu",
-    "venue": "Entropy",
-    "links": {
-      "pdf": "https://doi.org/10.3390/e28080849"
-    },
-    "tags": [
-      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
-    ]
-  },
-  {
-    "year": 2026,
     "title": "Ultrasound Domain Adaptation for Robust Kidney Segmentation via Spectral-Similarity-Guided Translation",
     "authors": "De Yu, Jinyan Cai, Menglin Wu, Yong Cheng, Ge Jin, Yongqi Yuan, Mengjie Ye, Qian Zhang, Shi Yin",
     "venue": " Journal of Imaging Informatics in Medicine",
@@ -92,42 +68,6 @@
     "venue": "Expert Systems with Applications",
     "links": {
       "pdf": "https://doi.org/10.1016/j.eswa.2024.123846"
-    },
-    "tags": [
-      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
-    ]
-  },
-  {
-    "year": 2024,
-    "title": "BPT-PLR: A Balanced Partitioning and Training Framework with Pseudo-Label Relaxed Contrastive Loss for Noisy Label Learning",
-    "authors": "Qian Zhang, Ge Jin, Yi Zhu, Hongjian Wei, Qiu Chen",
-    "venue": "Entropy",
-    "links": {
-      "pdf": "https://doi.org/10.3390/e26070589"
-    },
-    "tags": [
-      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
-    ]
-  },
-  {
-    "year": 2024,
-    "title": "A Noisy Sample Selection Framework Based on a Mixup Loss and Recalibration Strategy",
-    "authors": "Qian Zhang, De Yu, Xinru Zhou, Hanmeng Gong, Zheng Li, Yiming Liu, Ruirui Shao",
-    "venue": "Mathematics",
-    "links": {
-      "pdf": "https://doi.org/10.3390/math12152389"
-    },
-    "tags": [
-      "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
-    ]
-  },
-  {
-    "year": 2024,
-    "title": "An Improved Sample Selection Framework for Learning with Noisy Labels",
-    "authors": "Qian Zhang, Yi Zhu, Ming Yang, Ge Jin, Yingwen Zhu, Yanjun Lu, Yu Zou1, Qiu Chen",
-    "venue": "PLOS ONE",
-    "links": {
-      "pdf": "https://doi.org/10.1371/journal.pone.0309841"
     },
     "tags": [
       "Noisy Label Learning/Trustworthy AI(噪声标签学习/可信AI)"
@@ -243,18 +183,6 @@
   },
   {
     "year": 2025,
-    "title": "ACSAformer: A crime forecasting model based on sparse attention and adaptive graph convolution",
-    "authors": "Zhenkai Qin, Baozhong Wei, Caifeng Gao, Feng Zhu, Weiqi Qin, Qian Zhang*",
-    "venue": "Frontiers in Physics",
-    "links": {
-      "pdf": "https://doi.org/10.3389/fphy.2025.1596987"
-    },
-    "tags": [
-      "AI4S(人工智能驱动的科学)"
-    ]
-  },
-  {
-    "year": 2025,
     "title": "Direction-Aware convolution for airway tubular feature enhancement network",
     "authors": "Qibiao Wu, Yagang Wang, Qian Zhang",
     "venue": "Medical Image Analysis",
@@ -313,18 +241,7 @@
       "AI4S(人工智能驱动的科学)"
     ]
   },
-  {
-    "year": 2023,
-    "title": "Online Multiple Object Tracking Using Min-Cost Flow on Temporal Window for Autonomous Driving",
-    "authors": "Hongjian Wei, Yingping Huang, Qian Zhang, Zhiyang Guo",
-    "venue": "World Electric Vehicle Journal",
-    "links": {
-      "pdf": "https://doi.org/10.3390/wevj14090243"
-    },
-    "tags": [
-      "AI4S(人工智能驱动的科学)"
-    ]
-  },
+ 
   {
     "year": 2024,
     "title": "Mastering adverse weather: a two-stage approach for robust semantic segmentation in autonomous driving",
@@ -404,18 +321,6 @@
     "venue": "计算机应用研究(Application Research of Computers )",
     "links": {
       "pdf": "10.19734/j.issn.1001-3695.2025.12.0518"
-    },
-    "tags": [
-      "AI4S(人工智能驱动的科学)"
-    ]
-  },
-  {
-    "year": 2024,
-    "title": "An enhanced deep learning model for effective crop pest and disease detection",
-    "authors": "Yongqi Yuan, Jinhua Sun, Qian Zhang",
-    "venue": "Journal of Imaging",
-    "links": {
-      "pdf": "10.3390/jimaging10110279"
     },
     "tags": [
       "AI4S(人工智能驱动的科学)"
