@@ -1,5 +1,16 @@
 [
-
+ {
+    "year": 2027,
+    "title": "面向开放教育的计算机视觉课程项目化与AIGC协同教学模式设计 (Project-Based and AIGC-Collaborative Teaching Model Design for the Computer Vision Course in Open Education)",
+    "authors": "Qian Zhang, Ge Jin, Yulong Qiao, Yingwen Zhu*",
+    "venue": "软件导刊 (Soft Ware Guide)",
+    "links": {
+      "pdf": "https://doi.org/xxx"
+    },
+    "tags": [
+      "Multimodal Learning(多模态学习)"
+    ]
+  },
   
   {
     "year": 2026,
